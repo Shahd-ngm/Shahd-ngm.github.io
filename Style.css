@@ -1,0 +1,66 @@
+img {
+padding: 5px; 
+/*this is for the spaceing*/
+border: 1px solid orange;
+/*this is for the borders I px its balck and solid*/
+height: 200px;
+/*this is for the size of the images*/
+
+}
+a {
+	font-family: verdana;
+	display: block;
+	width: 100%;
+	color: blue;
+	
+}
+.title{
+	font-family: 'Lucida Blackletter', sans-serif;;
+	/*this is a class to change the colors*/
+	font-size:20px;
+	text-align: left/;
+	margin: 15px;
+	color: #006600;
+	font-weight: bold;
+}
+
+.aboutUs{
+	/*this is a class to change the paragraphs*/
+
+font-family: verdana;
+font-size: 12px;
+border: 2px solid orange;
+width: 600px;
+;
+margin: 5px;
+
+}
+
+.history {
+font-family: verdana;
+font-size: 12px;
+width: 600px;
+margin: 5px;
+}
+
+.header{
+	font-family: verdana;
+	color:rebeccapurple;
+	font-weight: bold;
+}
+
+.internal-link{
+	font-family: verdana;
+	text-size: 11px;
+	color: pink;
+	text-decoration: none;
+}
+
+body{
+	font-family: verdana;
+	font-weight:normal; 
+	line-height:18px;
+	text-indent: 15px;
+	margin:0;
+
+}
