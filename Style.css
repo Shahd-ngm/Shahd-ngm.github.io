@@ -1,7 +1,11 @@
+
+
+body{background-color: black;}
+
 img {
 padding: 5px; 
 /*this is for the spaceing*/
-border: 1px solid orange;
+border: 1px solid green;
 /*this is for the borders I px its balck and solid*/
 height: 200px;
 /*this is for the size of the images*/
@@ -26,26 +30,25 @@ a {
 
 .aboutUs{
 	/*this is a class to change the paragraphs*/
-
+color:white;
 font-family: verdana;
-font-size: 12px;
-border: 2px solid orange;
+font-size: 11px;
 width: 600px;
-;
-margin: 5px;
+margin: 10px;
 
 }
 
 .history {
+color:white;
 font-family: verdana;
-font-size: 12px;
+font-size: 11px;
 width: 600px;
-margin: 5px;
+margin: 10px;
 }
 
 .header{
 	font-family: verdana;
-	color:rebeccapurple;
+	color:lightblue;
 	font-weight: bold;
 }
 
@@ -57,10 +60,11 @@ margin: 5px;
 }
 
 body{
+
 	font-family: verdana;
 	font-weight:normal; 
 	line-height:18px;
 	text-indent: 15px;
 	margin:0;
-
 }
+
