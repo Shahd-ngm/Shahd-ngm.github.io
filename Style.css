@@ -1,6 +1,19 @@
 
 
-body{background-color: black;}
+
+body{
+
+	background-color: black;}
+
+	body{
+
+	font-family: Halvetica, Arial;
+	font-weight:normal; 
+	line-height:15px;
+	text-indent: 10px;
+	margin:0;
+
+}
 
 img {
 padding: 5px; 
@@ -8,30 +21,73 @@ padding: 5px;
 border: 1px solid green;
 /*this is for the borders I px its balck and solid*/
 height: 200px;
-/*this is for the size of the images*/
+/*this is for the size of the images*/}
+
+/*header on top - for title*/
+.rectangle {
+margin: auto;
+width: 50; 
+height: 120px; 
+background: #FFC0CB; 
+}
 
 }
-a {
-	font-family: verdana;
-	display: block;
-	width: 100%;
-	color: blue;
-	
+button{
+	background-color:#FF69B4;
+    border: none;
+
 }
+
+
 .title{
-	font-family: 'Lucida Blackletter', sans-serif;;
+	font-family: 'Lucida Blackletter', sans-serif;
 	/*this is a class to change the colors*/
-	font-size:20px;
-	text-align: left/;
-	margin: 15px;
+	Position: sticky;
+	top: 2px;
+	display:block;
+	font-size:15px;
+	text-align: left;
+	margin-top: 2px;
+	margin-left: 10px;
 	color: #006600;
 	font-weight: bold;
+	box-shadow: 0 13px 21px rgba(0, 0, 0, 0.05);
+	
+
+	padding: 25px;
 }
 
+.home{
+	font-family: 'Lucida Blackletter', sans-serif;
+/*this is a class to change the colors*/
+	color: #006600;
+	Position: fixed; 
+	font-size:15px;
+	right:240px;
+}
+	
+.photo{
+ font-family: "lucida Blackletter", sans-serif;
+ /*this is a class to change the colors*/
+	color: #006600;
+	Position: fixed; 
+	font-size:15px;
+	right:150px;
+}
+
+.sign{
+ font-family: "lucida Blackletter", sans-serif;
+ /*this is a class to change the colors*/
+	color: #006600;
+	Position: fixed; 
+	font-size:15px;
+	right:40px;
+}
+ 
 .aboutUs{
 	/*this is a class to change the paragraphs*/
 color:white;
-font-family: verdana;
+font-family: Halvetica, Arial;
 font-size: 11px;
 width: 600px;
 margin: 10px;
@@ -40,31 +96,57 @@ margin: 10px;
 
 .history {
 color:white;
-font-family: verdana;
+font-family: Halvetica, Arial;
 font-size: 11px;
 width: 600px;
 margin: 10px;
 }
 
-.header{
-	font-family: verdana;
-	color:lightblue;
+.topic{
+	font-family: Halvetica, Arial;
+	text-size: 11px;
+	color: #AFE1AF;
 	font-weight: bold;
+
+	
 }
 
 .internal-link{
-	font-family: verdana;
+	font-family: Halvetica, Arial;
 	text-size: 11px;
 	color: pink;
 	text-decoration: none;
 }
 
-body{
 
-	font-family: verdana;
-	font-weight:normal; 
-	line-height:18px;
-	text-indent: 15px;
-	margin:0;
+
+
+/*for the ghost*/
+
+.ghost {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 20%;
+    position: absolute;
+    bottom: -20px; /* Start off the screen */
+    left: 20%; /* Center horizontally */
+    transform: translateX(-20%);
+    animation: ghostAnimation 3s linear infinite;
 }
+
+@keyframes ghostAnimation {
+    0% {
+        transform: translateX(-20%) translateY(0);
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    50% {
+        transform: translateX(-20%) translateY(-50vh); /* Move to the top of the screen */
+        opacity: 0;
+    }
+}
+
 
