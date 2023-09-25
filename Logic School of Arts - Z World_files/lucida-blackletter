@@ -1,8 +1,0 @@
-@font-face {
-    font-family: 'Lucida Blackletter';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Lucida Blackletter'), url('https://fonts.cdnfonts.com/s/14008/Lucida Blackletter Regular.woff') format('woff');
-}
-
-
