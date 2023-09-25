@@ -328,7 +328,7 @@ input[type=text]:hover {
 .forms{
   border-radius: 4px;
   padding: 30px;
-  background-image: url(anotherworld.jpeg);  
+  background-image: url(./anotherworld.jpeg);  
 }
 
 
