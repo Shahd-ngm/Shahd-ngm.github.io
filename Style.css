@@ -1,0 +1,338 @@
+
+
+body{
+background-color: black;
+	font-family: Halvetica, Arial;
+	margin:0;
+}
+
+/*header on top - for title*/
+.rectangle {
+background-image: linear-gradient(to right, #027F50, #265E4A);
+Position: sticky;
+margin:0;
+width: 100%; 
+top: 0px;
+height: 80px; 
+}
+
+/* for vid*/
+iframe {
+left:700px;
+top:0px;
+margin:0px;
+border: none;
+}
+
+.moveVid
+{
+ overflow: hidden;
+ padding-top:0%;
+ top:0;
+ width: 100%;
+  height:330px;
+}
+
+/*mov vedio tp left*/
+.moveVid{
+	top:0px;
+} 
+
+nav{
+	width:100%;
+}
+
+nav ul {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+/* for buttons*/
+button{
+	margin: 6px 6px;
+	padding: 6px 6px;
+	text-align: center;
+  	text-decoration: none;
+	background-color:#265E4A;
+    border: none;
+
+}
+button:hover{
+	background-color:#057A4D;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+a{
+	color:white;
+	text-decoration:none;
+}
+
+.title{
+	font-family: 'Lucida Blackletter', sans-serif;
+	/*this is a class to change the colors*/
+	Position: fixed;
+	top: 0px;
+	display:block;
+	font-size:15px;
+	text-align: left;
+	margin-top: 2px;
+	margin-left: 10px;
+	color: white;
+	font-weight: bold;
+	padding: 25px;
+}
+
+.home{
+	/*home button*/
+	font-family: 'Lucida Blackletter', sans-serif;
+	/*this is a class to change the colors*/
+	background: transparent;
+	border:none;
+	color: white;
+	Position: fixed; 
+	top:20px;
+	font-size:15px;
+	right:240px;
+}
+	
+.photo{
+	/*photo button*/
+	font-family: "lucida Blackletter", sans-serif;
+	/*this is a class to change the colors*/
+	background: transparent;
+	border:none;
+	color: white;
+	Position: fixed;
+	top:20px; 
+	font-size:15px;
+	right:140px;
+}
+
+.sign{
+	/*sign in button*/
+	font-family: "lucida Blackletter", sans-serif;
+	/*this is a class to change the colors*/
+	background: transparent;
+	border:none;
+	color: white;
+	Position: fixed; 
+	top:20px;
+	font-size:15px;
+	right:40px;
+}
+ 
+.topic{
+/*for about us and history	*/
+	font-family: Halvetica, Arial;
+	font-size: 17px;
+	color: white;
+	font-weight: bold;}
+
+
+.aboutUs{
+	/*this is a class to change the paragraph about us*/
+	color:white;
+	font-family: Halvetica, Arial;
+	font-size: 14px;
+	width: 600px;
+	margin: 0px;
+
+}
+
+.history {
+	/*this is a class to change the paragraph hostory*/
+	color:white;
+	font-family: Halvetica, Arial;
+	font-size: 14px;
+	width: 600px;
+	margin: 0px;
+}
+
+
+
+/*photo Gallary */
+
+.container{
+	font-family: Halvetica, Arial;
+	color:white;
+	font-size: 2em;
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+ 	text-align: center;
+	margin:0px 5px 0 10px;
+}
+
+.container.photoTitle{
+	width :10%;
+	padding-bottom:5px;
+}
+
+.container .photoTitle h6 {
+	text-align: center;
+	font-weight:bolder;
+	padding-bottom: 8px;
+	margin-top: 10px;
+	border-bottom:3px solid #BCAEB9;
+	margin-bottom:20px;
+	width: 550px;
+}
+
+.container .photoTitle h6 span{
+	font-family:"lucida Blackletter", sans-serif;
+	font-weight:100;
+	color: white;
+}
+
+.container .ImageStyle .image{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: row;
+	gap: 20px 15px;
+}
+
+.container .ImageStyle .image img{
+	width:auto;
+	height:200px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+}
+
+.image img:hover{
+	transform: scale(1.2);
+	margin: 20px;
+}
+
+/*for the ghost*/
+
+.ghost {
+  
+    border-radius: 20%;
+    position: absolute;
+    bottom: -20px; /* Start off the screen */
+    left: 25%; /* Center horizontally */
+    transform: translateX(-20%);
+    animation: ghostAnimation 40s linear infinite;
+}
+.ghost img {
+	width:250px;
+	height:250px;
+}
+
+@keyframes ghostAnimation {
+    0% {
+        transform: translateX(-400%) translateY(0);
+        opacity: 0;
+    }
+
+    20% {
+    	transform: translateX(400%) translateY(-30vh);
+        opacity: 0.25;
+    }
+
+    40% {
+    	transform: translateX(-400%) translateY(-50vh);
+        opacity: 0.25;
+    }
+
+    60% {
+        transform: translateX(400%) translateY(-70vh); /* Move to the top of the screen */
+        opacity: 0.25;
+    }
+    80% {
+        transform: translateX(-400%) translateY(-00vh);
+        opacity: 0.25;}
+
+    100% {
+        transform: translateX(400%) translateY(-100vh); /* Move to the top of the screen */
+        opacity: 0;
+    }
+}
+
+/*form, history ,and about*/
+.forms {
+	color:white;
+	font-family: Halvetica, Arial;
+	font-weight:normal; 
+	line-height:25px;
+	text-indent: 0px;
+}
+
+#form {
+		margin: 50px 50px;		
+}
+
+.formsContainer{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#signInForm{
+	width:50%;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 14px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(1px);
+	-webkit-backdrop-filter: blur(1px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	padding-bottom: 10px;
+
+}
+
+input[type=text], select {
+  width: 50%;
+  padding: 15px 35px;
+  margin: 10px 10px;
+  display: inline-block;
+  border: 1px outset #BCAEB9;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  color: white;
+  padding: 5px 25px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  height:35px;
+  cursor: pointer;
+}
+
+input[type=submit ] {
+  background-color: #265e4a;
+}
+
+input[type=submit ]:hover {
+  color:#BCAEB9;
+  background-color:#057A4D;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+input[type=text] {
+	background-color:#265e4a;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  	color: #BCAEB9;
+}
+input[type=text]:hover {
+  background-color: #BCAEB9;
+  color:#122A22;
+}
+
+.forms{
+  border-radius: 4px;
+  padding: 30px;
+  background-image: url(./anotherworld.jpeg);  
+}
+
+
+
+
+
+

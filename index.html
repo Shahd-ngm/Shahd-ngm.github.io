@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<!-- root of DOM -->
+
+    <head>
+        <!-- for the banner -->
+        <div class="rectangle"></div>
+        <title>Logic School of Arts - Z World </title>
+        <link rel="stylesheet" href="./style.css"/>
+        <!-- link and import the title font Lucida-blackletter. I know its only legible but it matches the style I want-->
+        <link href="https://fonts.cdnfonts.com/css/lucida-blackletter" rel="stylesheet">
+        <style>
+            @import url('https://fonts.cdnfonts.com/css/lucida-blackletter');
+        </style>
+        <!-- for the ghost -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ghost Animation</title>
+
+    </head>
+
+    <header>
+        <h1 class="title">School of Arts in Z World</h1>
+        <!-- click button to go to different tabs -->
+        <!-- for the header -->
+        <nav>
+            <ul>
+                <!-- why is the css stule not workong here? and how when button is clicked it scrolls dawn to the pictures? -->
+                <button class="home"> <a
+                        href="./index.html">Home</a></button>
+
+                <button class="photo"><a href="#PhotoCont">Photos</a></button>
+
+                <button class="sign"> <a href="./page.html">Sign
+                        In</a>
+                </button>
+
+            </ul>
+        </nav>
+    </header>
+
+    <body>
+        <div class="formsContainer">
+            <div class="forms" style="margin:5px;">
+                <h5 class="topic">About Us</h5>
+                <p class="aboutUs">Welcome to the enigmatic and surreal realm of Z of Arts, a world where everything is a
+                    new logic. In Z of Arts, we invite you to explore the unconventional, challenge your perceptions, and
+                    embrace the bizarre. This is not Earth this is a new dimention where everything is not what it seems. In
+                    Z World, what you think you know is merely the beginning. Here, chaos is our canvas, and contradictions
+                    is our medium. Our artists revel in the absurd, finding beauty in the bizarre, and meaning in the
+                    paradoxical. Prepare to question everything you thought you understood about art, for in Z of Arts, the
+                    ordinary is dull, and the extraordinary is commonplace.</p>
+
+                <h5 class="topic"> Brief History </h5>
+
+                <p class="history"> In 1050, the School of Art in Z World was intiated by a group of Artists on Earth who
+                    rebelled againest the norms. They all took a spaceship and found a new dimension where art was
+                    re-invented. They envisioned a place where the boundaries between reality and imagination blur, and
+                    where the unexpected thrives. And so, Z of Arts was born.</p>
+
+            </div>
+            <div class="moveVid">
+                <iframe width="100%" ; height="100%" ; src="https://www.youtube.com/embed/gGAWuGQtf68?si=bum1qwc-S3G93s56"
+                    allow="accelerometer" ;>
+                    <!-- you cant just copy paste the link you have to change smth in it -->
+                </iframe>
+            </div>
+        </div>
+        <br />
+        <!-- images -->
+        <div id="PhotoCont" class="container">
+            <div class="photoTitle" align=center>
+                <h6> Photo <span> Gallery</h6>
+            </div>
+            <div class="ImageStyle">
+                <div class="image">
+                    <img src="IMG_7863.jpg" alt-text="Z school Art" />
+                    <img src="IMG_7844.jpg" alt-text="Z school Art" />
+                    <img src="IMG_7868.jpg" alt-text="Z school Art" />
+                    <img src="IMG_7858.jpg" alt-text="Z school Art" />
+
+                    <img src="IMG_7847.jpg" alt-text="Z School Art" />
+                    <img src="IMG_7865.jpg" alt-text="Z school Art" />
+                    <img src="IMG_7869.jpg" alt-text="Z school Art" />
+
+                    <img src="IMG_7867.jpg" alt-text="Z school Art" />
+                    <img src="IMG_7862.jpg" alt-text="Z school Art" />
+                    <img src="IMG_7846.jpg" alt-text="Z school Art" />
+                    <img src="IMG_7854.jpg" alt-text="Z school Art" />
+                </div>
+            </div>
+        </div>
+
+        <!-- for the ghost -->
+        <div class="ghost">
+            <img src="ghost.png" alt-text="Z School Art" />
+        </div>
+        <script src="./script.js"></script>
+          </body>
+
+</html>

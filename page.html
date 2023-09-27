@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <!-- root of DOM -->
+
+  <head>
+    <!-- for the banner -->
+    <div class="rectangle"></div>
+    <title>Re-imagined Logic School of Arts - Z World</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- link and import the title font Lucida-blackletter. I know its only legible but it matches the style I want-->
+    <link
+      href="https://fonts.cdnfonts.com/css/lucida-blackletter"
+      rel="stylesheet"/>
+    <style>
+      @import url("https://fonts.cdnfonts.com/css/lucida-blackletter");
+    </style>
+
+    <!-- for the ghost -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ghost Animation</title>
+  
+  </head>
+
+  <header>
+    <h1 class="title">School of Arts in Z World</h1>
+    <!-- click button to go to different tabs -->
+    <!-- for the header -->
+    <nav>
+      <ul>
+        <!-- why is the css stule not workong here? and how when button is clicked it scrolls dawn to the pictures? -->
+        <button class="home">
+          <a href="./index.html">Home</a>
+        </button>
+        <button class="photo">
+          <a href="./index.html#PhotoCont">Photos</a>
+        </button>
+        <button class="sign">
+          <a href="./page.html">Sign In</a>
+        </button>
+      </ul>
+    </nav>
+  </header>
+
+  <body>
+    <!-- form  -->
+    <div class="forms" id="form" align="center">
+      <form id="signInForm" action="/action_page.php">
+        <label for="fname">Name</label><br />
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          value="John tori"
+          required
+        /><br /><br />
+
+        <label for="fname">Email:</label><br />
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          value="John.art@artmail.com"
+          required
+        /><br />
+
+        <label for="Password">Password</label><br />
+        <input
+          type="text"
+          id="fname"
+          name="Password"
+          value="Password"
+          required
+        /><br /><br />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <!-- for the ghost -->
+    <div class="ghost">
+      <img src="ghost.png" alt-text="Z School Art" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
