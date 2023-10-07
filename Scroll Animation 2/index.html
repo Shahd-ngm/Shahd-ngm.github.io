@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ComicFish</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<!-- Navigation bar -->
+	<div id="nav">
+		<!-- link to divs on the same page using their id names -->
+		<a href="#sea"><div class="nav-btn" id="first-page"></div></a>
+		<a href="#first-text"><div class="nav-btn" id="second-page"></div></a>
+		<a href="#ocean"><div class="nav-btn" id="third-page"></div></a>
+		<a href="#second-text"><div class="nav-btn" id="fourth-page"></div></a>
+	</div>
+	<!-- 
+	Four full browser size sections:
+	1. sea
+	2. Text section
+	3. Ocean
+	4. Text section
+	 -->
+	<div id="sea">
+		<!-- Content to display inside the mountain div -->
+		<div id="flower-div">
+			<span id="flower-text">Scroll to Read the Story.</span>
+			<img id="flower" src="img/flower.png">
+		</div>
+	</div>
+	<div id="first-text" class="text-section">
+		<p class="text">Millions of years ago, the fish had a strong Civilization. They found the first fish to even be alive in the Fish World 2000 fish years ago. They developed the fish physics of how to escape fishermen nets. Know they have schools to teach these things.</p>
+	</div>
+	<div id="ocean">
+		<!-- Content to display inside the ocean div -->
+		<div id="learn-div">
+			<img id="learn" src="img/learn.jpg"/>
+			<span id="learn-text">Fish learning in fish school</span>
+		</div>
+	</div>
+	<div id="second-text" class="text-section">
+		<p class="text">To register in Fish School you have to be a fish of age 5 fish years. You will take an IQ exam to determine if you can enroll or not. Usually you learn alot of intresting things from Fish History to Fish Science. There will be trips all over the ocean during the breaks you can register and attend using fish coins.
+		</p>
+	</div>
+	<!-- Cat div position is fixed on the bottom left corner of the web page -->
+	<div id="fish-div">
+		<span id="fish-text">welcome to Fish School!</span>
+		<img id="fish-text" src="img/fish.png"width="100" height="100"/>
+	</div>
+	    <script src="script.js"></script>
+</body>
+</html>
