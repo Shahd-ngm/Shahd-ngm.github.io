@@ -7,7 +7,7 @@ html{
 }
 
 body{
-	/* Set height of the body to 100% -- separated out of html to allow scrollTo animation */
+	/* Set height of the body to 100% separated out of html to allow scrollTo animation */
 	background-color: black;
 	height: 100%;
 	margin: 0px;
@@ -70,7 +70,7 @@ fish Div
 }
 
 /* 
-Parallax: Mountain and Ocean sections;
+Parallax: sea and Ocean sections;
 */
 #sea, #ocean{
 	/* Set height of div to 100% */

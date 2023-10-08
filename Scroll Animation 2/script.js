@@ -51,7 +51,7 @@ function changeText(){
 	// Uncomment line below to see scrollY position change
 	// console.log(window.scrollY);
 
-	// pos saves current scrollY position
+	// pos saves current scroll position
 	let pos = window.scrollY;
 	// width saves current web page width
 	let width = window.innerWidth;
