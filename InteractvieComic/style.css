@@ -1,0 +1,135 @@
+body {
+  font-family: Halvetica, Arial;
+  background-color: #000036;
+  overflow-x: hidden;
+}
+
+.img {
+  position: relative;
+  width: 75vw;
+  height: 75vh;
+}
+
+.img-cover {
+  /*  display: inline-block;*/
+  width: 70%;
+  height: 70%;
+  /*  margin-top:160px;*/
+}
+
+/*title of the story*/
+#book-title {
+  font-family: "Horror Type", sans-serif;
+  z-index: 2;
+  position: absolute;
+  margin-bottom: 0px;
+  left: 33%;
+  color: white;
+  text-align: center;
+  font-size: 150px;
+}
+#subtitle {
+  color: #d72525;
+  padding: 0px;
+  margin-top: 0px;
+  font-size: 35px;
+}
+
+#emily-shocked {
+  z-index: 2;
+  left: 10vw;
+  top: 10vh;
+  position: absolute;
+}
+
+#monster-emb {
+  z-index: 2;
+  right: 5vw;
+  opacity: 0;
+  position: absolute;
+}
+
+#cover-emily {
+  z-index: 2;
+  width: 40vw;
+  height: 45vw;
+  margin-top: 5px;
+  position: absolute;
+  top: 25vw;
+  left: 3vw;
+}
+#cover-palm {
+  z-index: 0;
+  width: 100vw;
+  height: 710px;
+  margin-top: 55px;
+  position: absolute;
+  top: 80px;
+  left: 210px;
+}
+
+#cover-monster {
+  z-index: 1;
+  width: 19vw;
+  height: 19vw;
+  position: absolute;
+  left: 80vw;
+  top: 38vw;
+}
+.panel {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+#emily-gaze {
+  width: 100vw;
+  height: 85vh;
+}
+/*end of panel 6*/
+
+.emily {
+  left: 50%; /* Set the left position to 50% */
+  transform: translate(-50%, 0%);
+}
+
+#emily1 {
+  z-index: 2;
+  position: absolute;
+}
+
+#emily2 {
+  z-index: 2;
+  position: absolute;
+}
+#emily2Dialog {
+  z-index: 2;
+  position: absolute;
+}
+#emily3Dialog {
+  z-index: 2;
+  position: absolute;
+}
+#emily4Dialog {
+  z-index: 2;
+  position: absolute;
+}
+#emily5Dialog {
+  z-index: 3;
+  position: absolute;
+}
+#emily6Dialog {
+  z-index: 2;
+  position: absolute;
+}
+
+#emily3 {
+  z-index: 2;
+  position: absolute;
+}
+
+.placeholder {
+  position: relative;
+  height: 50vh;
+}

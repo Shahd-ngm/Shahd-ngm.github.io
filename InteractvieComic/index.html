@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!-- font for the story title -->
+    <link href="https://fonts.cdnfonts.com/css/horror-type" rel="stylesheet">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/horror-type');
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <div id="cover" style="position: relative; width: 100vw; height: 100vh">
+        <!-- Home page div -->
+
+        <!-- emily img -->
+        <div id="cover-emily">
+            <img class="img-cover" src="img/emily-cover.png" alt="Emily portrait">
+        </div>
+        <!-- book title -->
+        <div id="book-title">The Campus Light
+            <div id="subtitle">An Interactive Comic</div>
+        </div>
+        <!-- palm tree cover -->
+        <div id="cover-palm">
+            <img class="img-cover" src="img/palm-cover.png" alt="Plam tree square on campus">
+        </div>
+        <!-- monster shadow -->
+        <div id="cover-monster">
+            <img class="img-cover" src="img/MonsterShadow.png" alt="The black shadow of the monster">
+        </div>
+    </div>
+
+    <!-- button linked to the first panel -->
+
+    <img id="captions" style="top: 160vh; left: 3vw; z-index: 99; position: absolute; width: 40vw; opacity: 0;"
+        src="./Captions/1.png">
+
+    <!-- first panel -->
+    <div class="panel" id="panel-1">
+        <img id="emily1" class="emily" style="top:68vh; left: 63vw; height: 200px" src="./img/EmilyWalking.png">
+        <img id="firstpage" class="img" style="top: 50px;" src="./img/palm-tree.png">
+
+    </div>
+
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+    <!-- panel 2 -->
+    <div class="panel" id="panel-2">
+        <img id="emily2" class="emily" style="top: 58vh; left: 30vw; height: 270px" src="./img/EmilyWalking.png">
+        <img id="emily2Dialog" class="emily" style="top: 53vh; left: 35vw;" src="./Dialogue/2.png">
+        <img id="secondpage" class="img" style="top: 40px;" src="./img/Screenshot 2023-10-11 at 8.26.27 PM.png">
+    </div>
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+    <!-- Panel 3 -->
+    <div class="panel" id="panel-3">
+        <img id="emily3" class="emily" style="top: 28vh; left: 40vw; height: 2700px" src="./img/EmilyWalking.png">
+        <img id="emily3Dialog" class="emily" style="top: 28vh; left: 60vw; height: 270px" src="./Dialogue/3.png">
+        <img id="thirdpage" class="img" style="top: 50px;" src="./img/corridor-dark.png">
+    </div>
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+
+
+    <!-- Panel 5-->
+    <div class="panel" id="panel1-5">
+        <img id="monster-back" class="monster" src="./img/monsterBack.png">
+    </div>
+
+    <!-- Panel 6-->
+    <div>
+        <div class="panel" id="panel1-6">
+            <img id="emily-gaze" src="./img/emily-gaze.png">
+        </div>
+        <div class="panel">
+            <img id="thirdpage" class="img" style="top: 10px;" src="./img/corridor-dark.png">
+        </div>
+        <div class="panel" id="panel1-6-2">
+            <img id="monster-hide" class="monster" style="width: 80%; height:80%;" src="./img/MonsterHide.png">
+            <img id="monster-thought" class="monster"
+                style="position: absolute; z-index: 10; left: 50vw; opacity: 0; height: 200px;"
+                src="./Thought/6_Monster.png">
+        </div>
+
+        <!-- Panel 7-->
+
+
+        <!-- Panel 8-->
+        <div class="panel" id="panel1-8">
+            <img id="torch" src="./img/torch.png"
+                style="position: absolute; top: 0px; left:0px; height: 100%; width: 100%;">
+            <img id="emily-shocked" src="./img/EmilyShocked.png" style="top:10vh">
+            <img id="emily4Dialog" class="emily" style="top: 15vh; left: 30vw; height: 80px; opacity: 0;"
+                src="./Dialogue/8_Emily.png">
+            <img id="emily5Dialog" class="emily" style="top: 15vh; left: 30vw; height: 80px; opacity: 0;"
+                src="./Dialogue/9.png">
+            <img id="emily6Dialog" class="emily" style="top: 30vh; left: 90vw; height: 80px; opacity: 0;"
+                src="./Dialogue/8_Monster.png">
+            <img id="monster-emb" src="./img/monster-emb.png">
+        </div>
+        <div class="placeholder"></div>
+        <div class="placeholder"></div>
+        <div class="placeholder"></div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>

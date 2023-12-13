@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+#home-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+    font-family: 'Nanum Pen Script', cursive;
+    background-color:#4B0082;
+    color:white;
+}
+
+#home-title {
+    font-size: 72px;
+}
+
+#home-image {
+    height: auto;
+    max-width: 20%;
+}
+
+.button {
+    z-index: 1;
+    font-size: 32px;
+    border-radius: 20%;
+    padding: 12px;
+    cursor: pointer;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+#start-button {
+    border: none;
+     background: linear-gradient(45deg,  #7a00ff, #ff00c8); /*shades of purpole*/
+}
+
+#start-button:active {
+    color: #000;
+}
+
+
+#start-button:active:after {
+    background: transparent;
+}
+
+
+#start-button:hover:before {
+    opacity: 1;
+}
+
+#start-button:hover{
+    background: linear-gradient(45deg,#ff00c8,#7a00ff);
+    border: none;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+     
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.image {
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s ease;
+}
+
+#image1 { background-image: url('./images/c2.JPG');}
+#image2 { background-image: url('./images/c2desk.jpg'); }
+#image3 { background-image: url('./images/cs.JPG'); }
+#image4 { background-image: url('./images/mp.JPG'); }
+#image5 { background-image: url('./images/baraha.JPG'); }
+#image6 { background-image: url('./images/c2-city.jpg'); }
+
+/*source https://webdeasy.de/en/top-css-buttons-en/*/
+
+button {
+    color:white;
+    font-family: 'Nanum Pen Script',cursive;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: #fff;  /*white*/
+    background: #4B0082;/*purple*/
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    z-index:0;
+    border-radius: 10px;
+    width: 15%;
+  align-items: center;
+  flex-direction: row;
+}
+button:before {
+     content: '';
+    background: linear-gradient(45deg, #00ffd5, #002bff, #7a00ff, #ff00c8); /*shades of purpole*/
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+button:active {
+    color: #000;
+}
+
+button:active:after {
+    background: transparent;
+}
+
+button:hover:before {
+    opacity: 1;
+}
+
+button.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    10% { background-position: 100% 0; }
+    50% { background-position: 0 0; }
+}
+
+/*button:hover{
+    background-color:#4B0082 ;
+    border: 2px solid #FFC300;
+    color:#FFC300;
+  
+}*/
+
+
+
+.top-center { position: absolute; top: 10px; left: 50%; transform: translateX(-50%); }
+.bottom-center { position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); }
+.right-center { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); }
+.left-center { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); }

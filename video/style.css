@@ -1,0 +1,122 @@
+body { /* removing scroll bar */
+  margin: 0px;
+  background-color: rgb(215, 182, 160);
+  overflow-y: scroll;
+  align-items: center; /* center vertically */
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* ---------------------------------------------------------------front page */
+.pierre_container {
+  z-index: 2;
+  position: relative;
+  margin-top: -57px;
+}
+.pierre {
+  width: 67%;
+  height:67%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.halo_container {
+  z-index: 0;
+  position: relative;
+  margin-top: -755px;
+}
+.halo {
+  width: 1400px;
+  max-width: 100%;
+  height: 820px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button {
+   z-index:2;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: monospace;
+}
+
+.button:hover {
+   z-index:2;
+    color: #f03535;
+}
+
+h1 {
+  font-family: "gimlet-display-compressed", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 210px;
+  color: #000000;
+  position: relative;
+  margin: 0;
+  padding-top: 50px;
+  z-index: 1;
+}
+h1, .about_vid {
+  text-align: center;
+  line-height: 0.8;
+}
+.about_vid { /* video description */
+  position: relative;
+  margin-top: -240px;
+  font-family: "anonymous-pro", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: #ccc;
+  z-index: 3;
+}
+#about{
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* ------------------------------------------------------- adding the slider */
+.slider-container {
+  position: relative;
+  margin: 0 auto;
+  margin-top: -70px;
+  z-index: 2;
+}
+.line {
+  width: 40%;
+  height: 10px;
+  background-color: #000000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px; 
+}
+
+.arrow {
+  width: 50px;
+  height: 50px;
+  background-image: url('./images/pill.png');
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  cursor: grab;
+}
+
+#bts-button{
+  position: absolute;
+  top: 92%;
+  left: 90%;
+  transform: translate(-40%, -50%);
+  text-align: center;
+}

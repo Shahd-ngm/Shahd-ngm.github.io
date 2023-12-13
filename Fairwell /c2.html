@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Navigation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="image" id="image1" >
+            <button class="top-center" onclick="goToImage(2)">Enter C2</button>
+        </div>
+        <div class="image" id="image2">
+            <button class="top-center" onclick="goToImage(3)">Grab something from the CS!</button>
+        </div>
+        <div class="image" id="image3">
+            <button class="top-center" onclick="goToImage(4)">Get Burro Blanco!</button>
+            <button class="bottom-center" onclick="goToImage(2)">Go downstairs</button>
+        </div>
+        <div class="image" id="image4">
+            <button class="right-center" onclick="goToImage(5)">Play Ping Pong</button>
+            <button class="bottom-center" onclick="goToImage(3)">Go downstairs</button>
+        </div>
+        <div class="image" id="image5">
+            <button class="left-center" onclick="goToImage(4)">Go back to the Marketplace</button>
+            <button class="bottom-center" onclick="goToImage(3)">Go downstairs</button>
+            <button class="top-center" onclick="goToImage(6)">Say Goodbye!</button>
+        </div>
+        <div class="image" id="image6">
+            <button class="bottom-center" onclick="window.location.href='index.html'">Re-live the Experience</button>
+        </div>
+    </div>
+    <script src="c2.js"></script>
+</body>
+</html>
