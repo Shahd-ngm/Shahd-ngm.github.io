@@ -1,0 +1,193 @@
+/* Custom Styles */
+body {
+    background-color: #FFFAFA;
+    color: #191970;
+    font-family: Lora;
+}
+
+
+.navbar {
+    z-index: 1;
+    background: linear-gradient(to right, #9b59b6, #e73cb1);
+}
+
+
+/* Set the text color to white */
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+/* Custom styling for tabs */
+.nav-tabs .nav-link {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.nav-tabs .nav-link:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.nav-tabs .nav-link.active {
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+}
+
+#particles-js {
+   z-index:1;
+   position: absolute;
+   width: 100%;
+   height: 90vh;
+   
+}
+/*welcome bitmoji*/
+.hi-img{
+   z-index:2;
+   position: relative;
+   display: block;
+   max-width: 40%;
+   max-height: 40%;
+   width: auto;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 5%;
+}
+
+/* art */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.gallery-item {
+  flex: 0 0 30%; /* Two items in a row*/
+  margin: 1px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+
+/*image in the art*/
+.lean{
+    z-index:2;
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+    max-width: 10%;
+    max-height: 10%;
+    position: relative;
+    
+    
+}
+/*for illustration online*/
+@media (max-width: 768px) {
+    .hi-img {
+        max-width: 60%;
+    }
+}
+
+#arthead{
+
+    text-align: center;
+
+
+}
+/*anbout section id*/
+#about {
+    z-index:2;
+    position: relative;
+}
+
+/* Indent text in tab content */
+.tab-content {
+    padding: 15px;
+}
+
+.jumbotron {
+    background: linear-gradient(to right, #9b59b6, #e73cb1);
+    color: white;
+}
+
+/*these are for the labels */
+.card {
+    background-color: #D8BFD8;
+    border: 2px solid #D8BFD8;
+    color: #191970;
+
+}
+/*for the project section*/
+.card-header {
+    background: linear-gradient(to right, #9b59b6, #e73cb1);
+    font-family: 'Brush Script MT',cursive ;
+    color: white; 
+    height:10%;
+}
+
+
+/*for the project*/
+.projectCarousel {
+    overflow: hidden;
+}
+
+.carousel-inner {
+    box-shadow: 0 4px 8px #e73cb1;
+}
+
+.carousel-item {
+    border-radius: 35px;
+    overflow: hidden;
+}
+
+.carousel-caption {
+    position: relative;
+    background: rgba(155, 89, 182, 0.7);
+    color: white;
+    border-radius: 0 0 15px 15px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height:45%;
+    padding: 15px;
+    text-align: center;
+}
+
+/*design learn more*/
+[target="_blank"] {
+    display: inline-block;
+    padding: 0px 13px;
+    margin-bottom: 13px;
+    background-color:#e73cb1; /* Set the background color for the button */
+    color: white; /* Set the text color */
+    border-radius: 2px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    width: fit-content;
+}
+
+[target="_blank"]:hover {
+    background-color: #e73cb1; /* Change the background color on hover */
+    color:black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    opacity: 0.6
+}
+
+.contact{
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+
